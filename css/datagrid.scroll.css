@@ -1,0 +1,43 @@
+div.dgscroll-root {
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px 1px 1px 1px;
+}
+
+div.dgscroll-divbody {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: nowrap;
+}
+
+div.dgscroll-divhead {
+    max-width: 100%;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+div.dgscroll-settings {
+    width: 100%;
+    margin: 0;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px 1px 0 1px;
+    background: linear-gradient(45deg, lightcoral, white);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+div.dgscroll-settings > div.row {
+    margin: 0;
+}
+
+div.datagrid-settings > div.btn-group {
+    margin-right: 15px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+div.dgscroll-paging {
+    max-width: 100%;
+}
