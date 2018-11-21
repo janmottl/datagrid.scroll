@@ -5,13 +5,14 @@ horizontal and vertical scrolling of ublabloo/datagrid. Table header fixed on ve
 - horizontal scrolling. Header is iscrolled synchronously with table body
 - settings and groups actions are not scrolled
 - paging is not scrolled
-- white space wrapping is off
 # How it is done
 - ublabloo/datagrid table header is hidden
 - ublabloo/datagrid group actions a settings are mirrored into a non-scrollable div (settings div). This div doesn't scroll neither horizontaly nor vertically.
 - ublabloo/datagrid column names and filters are mirrored into a new table (header table). It scrolls synchronously with table body.
 - ublabloo/datagrid paging is mirrored into a new paging (paging div). This div doesn't scroll neither horizontaly nor vertically.
 - clicks and key pressings are mirrored so original ublabloo/datagrid links and inputs receive appropriate events
+- white space wrapping is off
+- table layout is fixed. The column width is given by the widest column.  
 # It's easy to use
 ```html
 <link rel="stylesheet" type="text/css" href="../bower_components/ublaboo-datagrid/assets/dist/datagrid.css">
