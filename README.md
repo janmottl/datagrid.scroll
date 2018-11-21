@@ -9,7 +9,7 @@ horizontal and vertical scrolling of ublabloo/datagrid. Table header fixed on ve
 # How it is done
 - ublabloo/datagrid table header is hidden
 - ublabloo/datagrid group actions a settings are mirrored into a non-scrollable div (settings div). This div doesn't scroll neither horizontaly nor vertically.
-- ublabloo/datagrid column names and filters are mirrored into a new table (header table). This table scrolls synchronously with table body.
+- ublabloo/datagrid column names and filters are mirrored into a new table (header table). It scrolls synchronously with table body.
 - ublabloo/datagrid paging is mirrored into a new paging (paging div). This div doesn't scroll neither horizontaly nor vertically.
 - clicks and key pressings are mirrored so original ublabloo/datagrid links and inputs receive appropriate events
 # It's easy to use
@@ -36,7 +36,7 @@ datagrid_scroll('objednavkaDatagrid');
 ```javascript
 $.nette.init();
 //
-// this functions adds scrolling to grid with component name 'objednavkaDatagrid'
+// this functions adds scrolling to grid with component name 'cenikVersionDatagrid'
 // - horizontal scrolling will be added if table width exceeds window width
 // - vertical scrolling will be added if table height exceeds specified maxHeight
 //
